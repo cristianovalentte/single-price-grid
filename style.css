@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap');
+/*font-family: 'Karla', sans-serif;*/
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Karla', sans-serif;
+}
+
+.container {
+  margin: 3rem auto;
+  background-color: transparent;
+  border: 1px solid transparent;
+  width: 650px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.308);
+}
+
+.top {
+  background-color: white;
+  padding: 2rem 0 1rem;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.top h1 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  margin: 0 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.top h2 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin: 0 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.top p  {
+  color:hsl(218, 22%, 67%);
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 1rem 2rem;
+  line-height: 1.6rem;
+}
+
+
+.box {
+  width: 650px;
+  height: 40vh;
+  display: flex;
+}
+
+.left {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  border-radius: 0px 0px 0px 8px;
+  padding: 1rem 3rem;
+}
+
+.left h3 {
+  margin: 1.5rem 0rem 0rem 0rem;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1.2px;
+}
+
+.left h4 {
+  margin: 1.5rem 0rem;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.left span {
+  color: rgba(255, 255, 255, 0.600);
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.left p {
+  color: rgba(255, 255, 255, 0.822);
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+}
+
+.left button {
+  margin: 0.8rem 1.7rem 0rem 0rem;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.8rem 5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+}
+
+.left button:hover {
+  cursor: pointer;
+  background-color: hsl(71, 91%, 48%);
+}
+
+.right {
+  background-color: hsl(179, 47%, 52%);
+  color: white;
+  border-radius: 0px 0px 8px 0px;
+  padding: 1rem 2rem;
+}
+
+.right h3 {
+  margin: 1.5rem 0rem 0rem 0rem;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.right p {
+  margin: 1.3rem 0;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.600);
+  letter-spacing: 1.3px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.3rem;
+  padding-right: 4rem;
+}
+
+footer {
+  background-color: hsl(204, 43%, 93%);
+  margin: 5px 0;
+}
+
+.attribution a{
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width:650px) {
+  .container {
+    margin: 3rem auto;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.308);
+  }
+
+  .top {
+    width: 400px;
+    height: 40vh;
+  }
+
+  .top h1 {
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .top h2 {
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .top p  {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .box {
+    width: 400px;
+    flex-direction: column;
+  }
+
+  .left {
+    border-radius: 0;
+    height: 42vh;
+    justify-content: center;
+    padding: 1rem 2rem;
+
+  }
+
+  .left h3 {
+    font-size: 1.2rem;
+  }
+
+  .left h4 {
+    font-size: 2.2rem;
+  }
+
+  .left p {
+    margin-top: 1rem;
+  }
+
+  .left button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+  }
+
+  .right {
+    border-radius: 0px 0px 8px 8px;
+    height: 40vh;
+    padding: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .right h3 {
+    margin: 1rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .right p {
+    margin: 1rem 1rem;
+    line-height: 1.5rem;
+    padding-right: 6rem;
+  }
+
+  footer {
+    margin-top: 17.5rem;
+    width: 400px;
+    text-align: center;
+    display: flex;
+  }
+
+  .attribution {
+    width: 400px;
+  }
+}
