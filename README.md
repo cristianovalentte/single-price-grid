@@ -18,6 +18,5 @@ O desafio consiste em:
 
 ### What I learned
 
-- Through this challenge, it was possible to improve the visualization of the project (eg: imagine what to do, before d oing it).
-- It was possible to train basic HTML (eg title hierarchy, div, class and id).
-- In the CSS it was possible to train more measures, justify-content, among other basic tags, but that leave your site with a different appearance.
+- Nesse desafio foi possível aprender e treinar um pouco de flexbox, principalmente o quesito de responsividade, que foi uma das minhas maiores dificuldades nesse projeto. 
+- Foi muito interessante trabalhar também com o display grid para a estruturação melhor do site nesse desafio, que é uma das coisas que eu também sinto grande dificuldade, porém com o tempo sinto que estou aprimorando.
